@@ -1,21 +1,28 @@
 {
-  "name": "nodejs",
+  "name": "messier-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Messier catalog API that provides data and images for all 110 Messier objects. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "messier",
+    "catalog",
+    "astronomy",
+    "api"
+  ],
+  "author": "Osric Dienda",
+  "license": "MIT",
   "dependencies": {
-    "@jimp/jpeg": "^0.22.8",
-    "@jimp/png": "^0.22.8",
-    "@types/node": "^18.0.6",
-    "axios": "^1.4.0",
-    "jimp": "^0.22.8",
-    "node-fetch": "^3.2.6",
-    "sharp": "^0.32.4"
-  }
+    "@types/node": "^18.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Odiend1/messier-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Odiend1/messier-api/issues"
+  },
+  "homepage": "https://github.com/Odiend1/messier-api#readme"
 }
