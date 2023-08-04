@@ -2,3 +2,5 @@ config.js
 .config/*
 node_modules/*
 .upm/*
+.replit
+replit.nix
